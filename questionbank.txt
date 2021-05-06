@@ -1,0 +1,218 @@
+mcq
+/q
+N = 1
+D = 0.1
+t = C is a ______ language?
+O = Functional~Procedural~Objects~Events~
+A = Functional
+~q
+/q
+N = 2
+D = 0.8
+t = For 16-bit compiler allowable range for integer constants is ______.
+O = -3.4e38 to 3.4e38~-32768 to 32767~-32767 to 32768~-32668 to 32667~
+A = -32768 to 32767
+~q
+/q
+N = 3
+D = 0.5
+t = C programs are converted into machine language with the help of ________.
+O = An Editor~An operating system~A compiler~None of the above~
+A = A compiler
+~q
+/q
+N = 4
+D = 0.7
+t =  Which of the following is allowed in a C Arithmetic instruction ?
+O = ()~[]~{}~None of the above~
+A =  ()
+~q
+/q
+N = 5
+D = 0.3
+t = Which of the following shows the correct hierarchy of arithmetic operations in C ?
+O =  / + * -~* - / +~+ - / *~* / + -~
+A = * / + -
+~q
+/q
+N = 6
+D = 0.9
+t = What is right way to Initialization array?
+O = int num[6] = { 2, 4, 12, 5, 45, 5 } ;~int n{} = { 2, 4, 12, 5, 45, 5 } ;~int n{6} = { 2, 4, 12 } ;~int n(6) = { 2, 4, 12, 5, 45, 5 } ;~
+A = int num[6] = { 2, 4, 12, 5, 45, 5 } ;
+~q
+/q
+N = 7
+D = 0.1
+t = An array elements are always stored in _________ memory locations.
+O = Sequential~Random~Sequential and Random~None of the above~
+A = Sequential
+~q
+/q
+N = 8
+D = 0.4
+t = What is the right way to access value of structure variable book{ price, page }?
+O = printf("%d%d", book.price, book.page);~printf("%d%d", price.book, page.book);~printf("%d%d", price::book, page::book);~printf("%d%d", price->book, page->book);~ 
+A = printf("%d%d", book.price, book.page);
+~q
+/q
+N = 9
+D = 0.2
+t = perror( ) function used to ?
+O = Work same as printf()~prints the error message specified by the compiler~prints the garbage value assigned by the compiler~None of the above~
+A = prints the error message specified by the compiler
+~q
+/q
+N = 10
+D = 0.1
+t = Bitwise operators can operate upon?
+O = double and chars~floats and doubles~ints and floats~ints and chars~
+A = ints and chars
+~q
+/q
+N = 11
+D = 0.6
+t = Which is the right way to declare constant in C?
+O = int constant var =10;~int const var = 10;~const int var = 10;~B & C Both~
+A = B & C Both
+~q
+/q
+N = 12
+D = 0.2
+t = What is an array?
+O = collection of variables that are of dissimilar data type~collection of variables of same data type~not a collection of variables that are of same data type~none of these~
+A = collection of variables of same data type
+~q
+/q
+N = 13
+D = 0.4
+t = What is C tokens?
+O = smallest individual units of C program~the basic element recognized by the compiler~largest individual units of a program~A & B both~
+A = A & B both
+~q
+/q
+N = 14
+D = 0.4
+t = Which operators are known as ternary operator?
+O = ::,?~?,:~?,;;~None~
+A = ?,:
+~q
+/q 
+N = 15
+D = 0.3
+t = In switch statement, each case instance value must be____?
+O = constant~variable~special symbol~None of the above~
+A = constant
+~q
+/q 
+N = 16
+D = 0.1
+t = What is the work of "break" keyword?
+O = halt execution of program~restart execution of program~exit from loop or switch statement~None of these~
+A = exit from loop or switch statement~None of these
+~q
+/q
+N = 17
+D = 0.2
+t = A binary tree with 27 nodes has _______ null branches.
+O = 54~27~26~None of these
+A = None of these
+~q
+/q
+N = 18
+D = 0.3
+t = Recursive functions are executed in a?
+O = first in first out order~load balancing~parallel fashion~last in first out order~
+A = last in first out order
+~q
+/q
+N = 19
+D = 0.9
+t = The statement print f ("%d", 10 ? 0 ? 5 : 1 : 12); will print?
+O = 10~0~12~1~
+A = 1
+~q
+~mcq
+fill
+/q
+N = 1
+D = 0.2
+t = A set of instructions which describes the steps to be followed to carry out an activity is called _____.
+A = Algorithm
+~q
+/q
+N = 2
+D = 0.3
+t = Algorithm is written in computers language, theen such set of instructions is called a ________.
+A = Program
+~q
+/q
+N = 3
+D = 0.6
+t = ________ is a graphical representation of a program.
+A = Flowchart
+~q
+/q
+N = 4
+D = 0.1
+t = The _________ symbol is used to indicate the starting and stopping the flowchart.
+A = Terminal
+~q
+/q
+N = 5
+D = 0.5
+t = The run time library is a collection of _____________ files.
+A = object
+~q
+/q
+N = 6
+D = 0.9
+t = Every complete statement in C program must terminate with ___________.
+A = ;(semicolon)
+~q
+/q
+N = 7
+D = 0.7
+t = The GCD of the numbers 120 and 64 is _____________.
+A = 8
+~q
+/q
+N = 8
+D = 0.1
+t = In ‘C’ while is ___________ word.
+A = reserved
+~q
+/q
+N = 9
+D = 0.3
+t = Every ‘C’ program first executes the ___________ function.
+A = main()
+~q
+/q
+N = 10
+D = 0.3
+t = The statement printf("%c", 100); will print _____.
+A = ASCII equivalent of 100
+~q
+/q
+N = 11
+D = 0.4
+t = The _______ memory allocation function modifies the previous allocated space.
+A = realloc
+~q
+/q
+N = 12
+D = 0.5
+t = In ______ tree, for every node the height of its left subtree and right subtree differ almost by one.
+A = AVL
+~q
+/q
+N = 13
+D = 0.2
+t = In _____ linked list last node address is NULL.
+A = singly
+~q
+~fill
+
+
+
