@@ -3,133 +3,133 @@ mcq
 N = 1
 D = 0.1
 t = C is a ______ language?
-O = Functional~Procedural~Objects~Events~
+O = Procedural~Object Oriented~Events~None of these~Assembly~Algorithmic~Structured Query~
 A = Functional
 ~q
 /q
 N = 2
 D = 0.8
 t = For 16-bit compiler allowable range for integer constants is ______.
-O = -3.4e38 to 3.4e38~-32768 to 32767~-32767 to 32768~-32668 to 32667~
+O = -3.4e38 to 3.4e38~-32767 to 32768~-32668 to 32667~0 to 3.4e38~-3.4e38 to 0~0 to 32768~0 t 32768~
 A = -32768 to 32767
 ~q
 /q
 N = 3
 D = 0.5
 t = C programs are converted into machine language with the help of ________.
-O = An Editor~An operating system~A compiler~None of the above~
+O = An Editor~An operating system~None of the above~An interpreter~Both Compiler and Editor~Loader~Linker~
 A = A compiler
 ~q
 /q
 N = 4
 D = 0.7
-t =  Which of the following is allowed in a C Arithmetic instruction ?
-O = ()~[]~{}~None of the above~
-A =  ()
+t = Which of the following is allowed in a C Arithmetic instruction ?
+O = []~{}~None of the above~!~$~^~&~
+A = ()
 ~q
 /q
 N = 5
 D = 0.3
 t = Which of the following shows the correct hierarchy of arithmetic operations in C ?
-O =  / + * -~* - / +~+ - / *~* / + -~
+O =  / + * -~* - / +~+ - / *~* / - +~/ - + *~* + / -~- + * /~
 A = * / + -
 ~q
 /q
 N = 6
 D = 0.9
 t = What is right way to Initialization array?
-O = int num[6] = { 2, 4, 12, 5, 45, 5 } ;~int n{} = { 2, 4, 12, 5, 45, 5 } ;~int n{6} = { 2, 4, 12 } ;~int n(6) = { 2, 4, 12, 5, 45, 5 } ;~
+O = int n{} = { 2, 4, 12, 5, 45, 5 } ;~int n{6} = { 2, 4, 12 } ;~int n(6) = { 2, 4, 12, 5, 45, 5 } ;~int n[6]=2,4,12~int n=[2,4,12]~None of these~int n[6]=(2,4,12)~
 A = int num[6] = { 2, 4, 12, 5, 45, 5 } ;
 ~q
 /q
 N = 7
 D = 0.1
-t = An array elements are always stored in _________ memory locations.
-O = Sequential~Random~Sequential and Random~None of the above~
-A = Sequential
+t = Which data structure is required to convert the infix to pefix notation?
+O = Array~Queue~Binary tree~Linked lists~Heaps~Graphs~AVL Trees~
+A = Stack
 ~q
 /q
 N = 8
 D = 0.4
 t = What is the right way to access value of structure variable book{ price, page }?
-O = printf("%d%d", book.price, book.page);~printf("%d%d", price.book, page.book);~printf("%d%d", price::book, page::book);~printf("%d%d", price->book, page->book);~ 
+O = printf("%d%d", price.book, page.book);~printf("%d%d", price::book, page::book);~printf("%d%d", price->book, page->book);~printf("%d%d", price.book, book.page);~ printf("%d%d", book.price, page.book);~ printf("%d%d",price,page);~ printf("%d%d",book->price,book->page);~
 A = printf("%d%d", book.price, book.page);
 ~q
 /q
 N = 9
 D = 0.2
 t = perror( ) function used to ?
-O = Work same as printf()~prints the error message specified by the compiler~prints the garbage value assigned by the compiler~None of the above~
+O = Work same as printf()~prints the garbage value assigned by the compiler~None of the above~Works same as scanf()~Returns the name of the function in which the error occured~Returns a pointer to the textual representation of the error~Returns the line number at which error occured~
 A = prints the error message specified by the compiler
 ~q
 /q
 N = 10
 D = 0.1
 t = Bitwise operators can operate upon?
-O = double and chars~floats and doubles~ints and floats~ints and chars~
+O = double and chars~floats and doubles~ints and floats~ints and doubles~chars and floats~None~only ints~
 A = ints and chars
 ~q
 /q
 N = 11
 D = 0.6
 t = Which is the right way to declare constant in C?
-O = int constant var =10;~int const var = 10;~const int var = 10;~B & C Both~
-A = B & C Both
+O = int constant var =10;~int const var = 10;~const int var = 10;~None~const int var 10~None~# define var 10~
+A = int const var = 10; or const int var = 10;
 ~q
 /q
 N = 12
 D = 0.2
 t = What is an array?
-O = collection of variables that are of dissimilar data type~collection of variables of same data type~not a collection of variables that are of same data type~none of these~
+O = collection of variables that are of dissimilar data type~not a collection of variables that are of same data type~none of these~collection of variables of same data type that can change dynamically in size~collection of variables of dissimilar data type that can change dynamically in size~Collection of data members and their member functions~Nonlinear data structures~
 A = collection of variables of same data type
 ~q
 /q
 N = 13
 D = 0.4
-t = What is C tokens?
-O = smallest individual units of C program~the basic element recognized by the compiler~largest individual units of a program~A & B both~
-A = A & B both
+t = What are C tokens?
+O = smallest individual units of C program~the basic element recognized by the compiler~largest individual units of a program~names in the c program~None of the above~predefined and reserved words~fuction pointers~
+A = smallest individual units of C program as well as the basic element recognized by the compiler
 ~q
 /q
 N = 14
 D = 0.4
 t = Which operators are known as ternary operator?
-O = ::,?~?,:~?,;;~None~
+O = ::,?~?,;;~None~::~?~:~!,:~
 A = ?,:
 ~q
 /q 
 N = 15
 D = 0.3
 t = In switch statement, each case instance value must be____?
-O = constant~variable~special symbol~None of the above~
+O = variable~special symbol~None of the above~conditional~float~integer~double~
 A = constant
 ~q
 /q 
 N = 16
 D = 0.1
 t = What is the work of "break" keyword?
-O = halt execution of program~restart execution of program~exit from loop or switch statement~None of these~
-A = exit from loop or switch statement~None of these
+O = halt execution of program~restart execution of program~None of these~restart the function~break out of a function~forces the next iteration of the loop~provides an unconditional jump to a labeled statement in the same function~
+A = exit from loop or switch statement
 ~q
 /q
 N = 17
 D = 0.2
 t = A binary tree with 27 nodes has _______ null branches.
-O = 54~27~26~None of these
+O = 54~27~26~0~29~53~52~
 A = None of these
 ~q
 /q
 N = 18
 D = 0.3
 t = Recursive functions are executed in a?
-O = first in first out order~load balancing~parallel fashion~last in first out order~
+O = first in first out order~load balancing~parallel fashion~Random Order~None of these~Iterative Order~Depends on the Operating System~
 A = last in first out order
 ~q
 /q
 N = 19
 D = 0.9
-t = The statement print f ("%d", 10 ? 0 ? 5 : 1 : 12); will print?
-O = 10~0~12~1~
+t = The statement printf ("%d", 10 ? 0 ? 5 : 1 : 12); will print?
+O = 10~0~12~7~2~3~None of these~
 A = 1
 ~q
 ~mcq
